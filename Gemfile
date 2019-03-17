@@ -41,10 +41,9 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 
-group: production do
-  gem 'pg', '0.18.1'
+group :production do
+  gem 'pg', '0.18'
   gem 'rails_12factor'
-  
 end
 
 group :development do
